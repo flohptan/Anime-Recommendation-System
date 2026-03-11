@@ -1,6 +1,6 @@
-Anime Recommendation System
+# Anime Recommendation System
 
-1. Overview
+## 1. Overview
 
 Built a scalable recommender system on a highly sparse dataset (6.3M ratings) using:
 
@@ -16,7 +16,7 @@ anime.csv - contains metadata of the anime such as the details of anime ID, name
 rating.csv - contains the user ratings for various anime, such as user ID, anime ID, and the ratings.
 
 
-2. Scale
+## 2. Scale
 
 6.3M cleaned ratings
 34K users
@@ -25,7 +25,7 @@ Extremely sparse user-item matrix
 1% stratified sampling for efficient modeling
 
 
-3. Models & Results (@Top-5, relevant ≥7)
+## 3. Models & Results (@Top-5, relevant ≥7)
 SVD (Collaborative Filtering)
 
 Precision: 0.72
@@ -47,7 +47,7 @@ Genre-driven personalization
 Lower catalog coverage
 
 
-3. Key Insights
+## 4. Key Insights
 
 70% overlap in Top-10 recommendations
 Weak ranking correlation → models capture different signals
@@ -55,13 +55,13 @@ Both models biased toward popular content
 Hybrid approach would improve novelty & coverage
 
 
-4. Tech Stack
+## 5. Tech Stack
 
 Python • Pandas • NumPy • Scikit-learn • Surprise • SciPy
 
 
 
-5. What This Demonstrates
+## 6. What This Demonstrates
 
 Recommender system design
 Matrix factorization
